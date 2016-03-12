@@ -9,7 +9,6 @@ So I believe scenarios like thses will likely get you running using git in safe 
 ### Happy Git:
 - [ ] Will Jump to a new project hosted in github or bitbucket.
 - [ ] Will start a project locally.
-
 - [ ] Need to go back to a previous commit.
 - [ ] Want to rename a local branche.
 - [ ] Want to remove a local branche.
