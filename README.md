@@ -9,3 +9,14 @@ So I believe scenarios like thses will likely get you running using git in safe 
 ### Happy Git:
 - [ ] Jumping to a new project hosted in github or bitbucket.
 - [ ] Creating a project locally.
+- [ ] Need to go back to a previous commit.
+- [ ] Want to rename a local branche.
+- [ ] Want to remove a local branche.
+- [ ] Want to remove a remote branche.
+- [ ] Want to follow a RELAXING git workflow.
+- [ ] Need to update the last commit message.
+- [ ] Need to reset changes.
+- [ ] Don't want to tap my account password everytime.
+- [ ] Don't want to use Terminal.
+- [ ] What if I pushed code to a merged branch ?
+- [ ] What if I pushed code to a branch with PR ?
