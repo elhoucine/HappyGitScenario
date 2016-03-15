@@ -6,7 +6,9 @@ It may be your first time using Git, and you don't have enough time to learn eve
 
 This scenario will likely get you running using git in safe and quick manner. But that's not intended to replace any learning ressources on the internet, it is just to get you starting happilly quickly!
 
-### Scenareo
+### Scenario
+##### Repos
+
 * Clone a repo
 ```
 git clone https://github.com/elhoucine/HappyGitScenario.git
@@ -16,6 +18,8 @@ git clone https://github.com/elhoucine/HappyGitScenario.git
 ```
 git init
 ```
+
+##### Branches
 
 * List all branches:
 ```
@@ -59,6 +63,8 @@ git checkout branch-I-want-To-Merge-To
 git merge branch-I-want-To-Merge
 ```
 
+###### Commits:
+
 * Committing:
 ```
 git status             # See what's going on.
@@ -80,6 +86,8 @@ git revert commit-Id
 ```
 git commit --amend
 ```
+
+##### Utilities:
 
 * Rename a local branch:
 ```
