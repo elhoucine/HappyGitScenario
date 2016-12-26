@@ -1,6 +1,8 @@
 # HappyGitScenario
 A git scenario to start using git quickly.
 
+[Read it on Meduim.](https://medium.com/@byjmlays/a-git-short-movie-e4931af229e3#.avlmlstmh)
+
 ### Why ?
 It may be your first time using Git, and you don't have enough time to learn everything about it.
 
