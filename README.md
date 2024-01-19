@@ -128,7 +128,7 @@ git branch -d testBranch                     #It will only work if testBranch wa
 ```
 
 > The param -d is case sensitive, the lowercase -d option is a safe delete and will give you useful warnings.
-> Don't use the capital option -D because it's a force delete and can delete your hard work accidentally.
+> Don't use the capital option -D because it's a force delete so you may delete your hard work accidentally.
 
 #### Remove a remote branch:
 ```
