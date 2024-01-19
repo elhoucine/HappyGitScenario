@@ -127,9 +127,12 @@ git branch -m branch2
 git branch -d testBranch                     #It will only work if testBranch was pushed and merged so it's safer to use.
 ```
 
+> The param -d is case sensitive, the lowercase -d option is a safe delete and will give you useful warnings.
+> Don't use the capital option -D because it's a force delete and can delete your hard work accidentally.
+
 #### Remove a remote branch:
 ```
-git checkout origin :remoteBranch            #Never do this, I am teaching it to you so you know how dengarous it is.
+git checkout origin :remoteBranch            #Dangerous, never do this.
 ```
 
 > Never try to remove a remote branch from your local machine, you may accidentaly remove someone else's or an important (non protected) branch.
