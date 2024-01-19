@@ -30,39 +30,39 @@ git branch
 
 * Download or fetch a remote branch:
 ```
-git fetch origin develop
-git checkout develop
+git fetch origin develop #fetch from server
+git switch develop #link with a local branch
 ```
 
 * Create a new local branch:
 ```
-git branch new-Branch
+git branch newBranch #new branch only on my machine
 ```
 
-* Checkout to a branch:
+* Move to another branch:
 ```
-git checkout existing-Branch
+git switch existingBranch
 ```
 
 * Create a new local branch and checkout to it:
 ```
-git checkout -b another-New-Branch
+git switch -c newBranch  #now I am in newBranch
 ```
 
-* Update local branch with remote branch:
+* Get updates from the server:
 ```
-git pull origin develop
-```
-
-* Push a local branch to remote:
-```
-git push origin new-Branch-Name
+git pull origin develop     #will download the latest changes from the server into develop
 ```
 
-* Merge a branch into another one:
+* Push my local branch to the server:
 ```
-git checkout branch-I-want-To-Merge-To
-git merge branch-I-want-To-Merge
+git push origin newBranch
+```
+
+* Merge a branch2 into branch1:
+```
+git switch branch1
+git merge branch2
 ```
 
 ###### Commits:
@@ -74,38 +74,50 @@ git add fileName       # or (git add .) for all listed files.
 git commit -m 'commit message'
 ```
 
+> Red are files not ready to be commited and should be added first.
+> Green are files added with `git add` and ready for commit. 
+
 * List all commits:
 ```
-git log --oneline
+git log --oneline   #online to make commits short for easy read.
 ```
 
 * Revert to a previous commit:
 ```
-git revert commit-Id
+git revert commitId 
 ```
+
+> revert does not reset previous changes, it undo them in a new commit instead, it's less dangerous than `reset`.
 
 * Update the last commit message:
 ```
 git commit --amend
 ```
 
+> This will let you update the content of the last commit and may result in converging with remote branch, only use when your last commit is not pushed.  
+
 ##### Utilities:
 
 * Rename a local branch:
 ```
-git checkout branch-I-want-To-Rename
-git branch -m newName
+git switch branhc2
+git branch -m branch2
 ```
+
+> You should pointing at the branch you want to rename.
 
 * Remove a local branch:
 ```
-git branch -D branch-To-Remove
+git branch -d testBranch   #It will only work if testBranch was pushed and merged so it's safer to use.
 ```
 
 * Remove a remote branch:
 ```
-git checkout origin :remote-Branch-To-Remove
+git checkout origin :remoteBranch   #Never do this, I am teaching it to you so you know how dengarous it is.
 ```
+
+> Never try to remove a remote branch from your local machine, you may accidentaly remove someone else's or an important (non protected) branch.
+> An alternative is to remove remote branches from the git platform carefully.
 
 
 ### Happy Git ref:
