@@ -1,7 +1,7 @@
 # HappyGitScenario
 A short guide to get started with GIT using Bash command line interface.
 
-PS: This gist is an update to my previous medium [post](https://medium.com/@byjmlays/a-git-short-movie-e4931af229e3#.avlmlstmh)
+PS: This is an update to my previous medium [post](https://medium.com/@byjmlays/a-git-short-movie-e4931af229e3#.avlmlstmh)
 
 ## Why ?
 It may be your first time using Git, and you don't have enough time to learn everything about it.
