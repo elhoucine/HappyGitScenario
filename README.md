@@ -1,16 +1,16 @@
 # HappyGitScenario
-A git scenario to start using git quickly.
+A short guide to get started with GIT using Bash command line interface.
 
-[Read it on Meduim.](https://medium.com/@byjmlays/a-git-short-movie-e4931af229e3#.avlmlstmh)
+PS: This gist is an update to my previous medium [post](https://medium.com/@byjmlays/a-git-short-movie-e4931af229e3#.avlmlstmh)
 
 ## Why ?
 It may be your first time using Git, and you don't have enough time to learn everything about it.
 
-This scenario will likely get you running using git in safe and quick manner. But that's not intended to replace any learning ressources on the internet, it is just to get you starting happilly quickly!
+This guide will give you the tools to start in a safe and quick manner so you can progress later at your own rhythm!
 
-Note: `git help #Anything after # is just a comment and it's ignored by git`.
+## Guide
+Note: GIT commands are written like this: `git command #optional comment` Anything after `#` is ignored.
 
-## Scenario
 ## Repos
 
 #### Clone a repo
